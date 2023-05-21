@@ -1,0 +1,156 @@
+/* extra small devices */
+@media screen and (max-width:599px){
+    /* index */
+     .title{
+         font-size: 40px;
+    } 
+    .subtitle{
+        font-size: 20px;
+    }
+
+    /* sluzby */
+    .sluzby-section1, .sluzby-section2, .sluzby-section3, .sluzby-section4, .sluzby-section5{
+     flex-direction: column;
+    }
+    .sluzby-section1 img, .sluzby-section2 img, .sluzby-section3 img, .sluzby-section5 img{
+        width: 100%;    
+    }
+    .sluzby-section4 img{
+         width: 100%;
+    }
+
+    /* prace */
+    .main-prace img{
+         width: 80%;
+    }
+
+    /* header */
+    /* .menu-seznam a{
+        display: none;
+    } */
+
+    .menu-seznam{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .main-kontakt, .main-sluzby, .main-galerie, .main-prace{
+        margin: 180px auto 30px auto; 
+    }
+
+    .main-index{
+        margin: 80px auto 30px auto;
+    }
+ }
+
+/* small devices */
+@media screen and (min-width: 600px) and (max-width:767px){
+   /* index */
+    .title{
+        font-size: 40px;
+   } 
+   .subtitle{
+       font-size: 20px;
+   }
+
+   /* sluzby */
+   .sluzby-section1, .sluzby-section2, .sluzby-section3, .sluzby-section4, .sluzby-section5{
+    flex-direction: column;
+    }
+    .sluzby-section4 img{
+        width: 100%;
+    }
+
+    /* prace */
+    .main-prace img{
+        width: 80%;
+    }
+
+    /* header */
+    /* .menu-seznam a{
+        display: none;
+    } */
+
+    .menu-seznam{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .main-kontakt, .main-sluzby, .main-galerie, .main-prace{
+        margin: 180px auto 30px auto; 
+    }
+
+    .main-index{
+        margin: 80px auto 30px auto;
+    }
+}
+
+/* medium devices - tablety*/
+@media screen and (min-width: 768px) and (max-width:991px){
+    /* sluzby */
+    .sluzby-section1, .sluzby-section2, .sluzby-section3, .sluzby-section4, .sluzby-section5{
+        flex-direction: column;
+    }
+    .sluzby-section1 img, .sluzby-section2 img, .sluzby-section3 img, .sluzby-section5 img{
+        width: 60%;    
+    }
+    .sluzby-section4 img{
+        width: 85%;
+    }
+
+    /* index */
+    .box-index{
+        margin-top: 30px;
+    }
+
+    /* kontakty */
+    .mapa{
+        width: 30%;
+    }
+
+    /* header */
+    /* .burgermenu{
+        display: none;
+    } */
+}
+
+/* large devices */
+@media screen and (min-width: 992px) and (max-width:1199px){
+    /* sluzby */
+    .sluzby-section1 img, .sluzby-section2 img, .sluzby-section3 img, .sluzby-section5 img{
+        width: 300px;    
+    }
+    .sluzby-section4{
+        flex-direction: column;
+    }
+
+    /* vycentrování obrázku a textu - vodorovně */
+    .sluzby-section1, .sluzby-section2, .sluzby-section3, .sluzby-section4, .sluzby-section5{
+        align-items: center;
+    }
+
+    /* kontakty */
+    .mapa{
+        width: 50%;
+    }
+
+    /* header */
+    /* .burgermenu{
+        display: none;
+    } */
+}
+
+@media screen and (min-width: 12000px) {
+     /* header */
+     /* .burgermenu{
+        display: none;
+    } */
+}
